@@ -1,0 +1,87 @@
+.body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+
+}
+.login{
+    width: 800px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 18%;
+    border-radius: 20px;
+    border: none;
+    background-color: #d9d1c7;
+    /* background-image: url('https://media.admagazine.com/photos/6421c251b63d56abbb4a6336/16:9/w_1600,c_limit/GettyImages-1474485122.jpg'); */
+    background-size: cover;
+
+}
+.back{
+    width: 150%;
+    height: 100vh;
+    background-image: url('https://media.admagazine.com/photos/6421c251b63d56abbb4a6336/16:9/w_1600,c_limit/GettyImages-1474485122.jpg');
+    background-position: center;
+    background-size: cover;
+    filter: blur(1px);
+}
+.input-mail{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-color: solid black;
+    outline: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+.input i{
+    position: absolute;
+    right: 20px;
+    top: 20%;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 500;
+    transition:.3s ;
+}
+.input-mail:focus ~ label,.input-mail:valid ~ label{
+    top: -10px;
+    font-size: 15px;
+    color: solid black;
+    border-bottom: none;
+}
+.input-mail:focus,.input-mail:valid{
+    border-bottom: 1px solid black;
+}
+.buttom{
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.button:active{
+    background-color: solid black;
+    font-size: 25px;
+}
+.log{
+    display: flex;
+    justify-content: center;
+}
+.log a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.log a:hover{
+    text-decoration: underline;
+}
+
+.contenido{
+    padding-right: 50px;
+}
